@@ -14,5 +14,5 @@ class BookConfig(
         var title: String,
         var author: String,
         var comments: String,
-        var sheetConfigs: Map<Int, SheetConfig> = emptyMap()
+        var sheetConfigs: List<SheetConfig> = emptyList()
 )

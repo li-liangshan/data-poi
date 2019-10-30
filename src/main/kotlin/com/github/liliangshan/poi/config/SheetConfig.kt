@@ -7,7 +7,6 @@ package com.github.liliangshan.poi.config
  ************************************/
 class SheetConfig(
         var name: String,
-        var position: Int = 0,
         var selected: Boolean = false,
         var hiddenColumns: List<Int> = emptyList(),
         var rightToLeft: Boolean = false,

@@ -1,4 +1,4 @@
-package com.github.liliangshan.poi
+package com.github.liliangshan.poi.core
 
 import com.github.liliangshan.poi.column.Column
 

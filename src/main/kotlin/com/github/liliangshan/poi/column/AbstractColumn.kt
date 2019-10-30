@@ -1,5 +1,8 @@
 package com.github.liliangshan.poi.column
 
+import java.math.BigDecimal
+import java.util.*
+
 /************************************
  * AbstractColumn class
  * @author liliangshan
@@ -22,5 +25,21 @@ abstract class AbstractColumn<T>(private var key: String, private var index: Int
     override fun index(): Int {
         return this.index
     }
+
+    abstract fun toLong(): Long
+
+    abstract fun toInt(): Int
+
+    abstract fun toBoolean(): Boolean
+
+    abstract fun toFloat(): Float
+
+    abstract fun toDouble(): Double
+
+    abstract fun toText(): String
+
+    abstract fun toDate(): Date
+
+    abstract fun toDecimal(): BigDecimal
 
 }

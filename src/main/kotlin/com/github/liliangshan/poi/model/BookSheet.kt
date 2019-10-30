@@ -1,6 +1,6 @@
 package com.github.liliangshan.poi.model
 
-import com.github.liliangshan.poi.Segment
+import com.github.liliangshan.poi.core.Segment
 
 /************************************
  * BookSheet class

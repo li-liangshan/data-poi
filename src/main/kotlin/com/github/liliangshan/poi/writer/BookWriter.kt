@@ -1,8 +1,7 @@
 package com.github.liliangshan.poi.writer
 
-import com.github.liliangshan.poi.Maker
+import com.github.liliangshan.poi.core.Maker
 import com.github.liliangshan.poi.model.Book
-import com.github.liliangshan.poi.writer.Writer
 import java.io.IOException
 import java.io.OutputStream
 import java.util.concurrent.atomic.AtomicBoolean

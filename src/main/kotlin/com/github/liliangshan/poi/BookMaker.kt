@@ -10,6 +10,8 @@ import java.math.BigDecimal
 import java.util.*
 import org.apache.poi.ss.usermodel.IndexedColors
 import com.github.liliangshan.poi.config.*
+import com.github.liliangshan.poi.core.Maker
+import com.github.liliangshan.poi.core.Segment
 import com.github.liliangshan.poi.model.BookSheet
 
 /************************************
