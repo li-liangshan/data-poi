@@ -1,6 +1,6 @@
 package com.github.liliangshan.poi.writer
 
-import com.github.liliangshan.poi.core.Maker
+import com.github.liliangshan.poi.maker.Maker
 import org.apache.poi.ss.usermodel.Workbook
 import java.io.OutputStream
 

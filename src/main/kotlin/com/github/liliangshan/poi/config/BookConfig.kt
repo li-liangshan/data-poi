@@ -7,12 +7,12 @@ package com.github.liliangshan.poi.config
  ************************************/
 class BookConfig(
         var name: String,
-        var category: String,
-        var manager: String,
-        var company: String,
-        var subject: String,
-        var title: String,
-        var author: String,
-        var comments: String,
+        var category: String = "",
+        var manager: String = "",
+        var company: String = "",
+        var subject: String = "",
+        var title: String = "",
+        var author: String = "",
+        var comments: String = "",
         var sheetConfigs: List<SheetConfig> = emptyList()
 )

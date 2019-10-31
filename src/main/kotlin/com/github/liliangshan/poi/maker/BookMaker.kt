@@ -1,4 +1,4 @@
-package com.github.liliangshan.poi
+package com.github.liliangshan.poi.maker
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook
 import org.apache.poi.ss.usermodel.Cell
@@ -10,7 +10,6 @@ import java.math.BigDecimal
 import java.util.*
 import org.apache.poi.ss.usermodel.IndexedColors
 import com.github.liliangshan.poi.config.*
-import com.github.liliangshan.poi.core.Maker
 import com.github.liliangshan.poi.core.Segment
 import com.github.liliangshan.poi.model.BookSheet
 

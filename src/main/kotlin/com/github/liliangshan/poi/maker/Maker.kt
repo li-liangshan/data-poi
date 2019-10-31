@@ -1,5 +1,6 @@
-package com.github.liliangshan.poi.core
+package com.github.liliangshan.poi.maker
 
+import com.github.liliangshan.poi.core.Segment
 import com.github.liliangshan.poi.model.BookSheet
 
 /************************************

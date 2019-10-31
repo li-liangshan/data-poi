@@ -8,13 +8,13 @@ import java.util.*
  * @author liliangshan
  * @date 2019/10/30
  ************************************/
-abstract class AbstractColumn<T>(private var key: String, private var index: Int, private var value: T?) : Column<T> {
+abstract class AbstractColumn<T>(private var key: String, private var index: Int, private var value: T) : Column<T> {
 
     override fun isNull(): Boolean {
         return this.value() == null
     }
 
-    override fun value(): T? {
+    override fun value(): T {
         return this.value
     }
 

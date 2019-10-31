@@ -5,38 +5,38 @@ import java.math.BigDecimal
 import java.util.*
 
 /************************************
- * BooleanColumn class
+ * NullColumn class
  * @author liliangshan
- * @date 2019/10/30
+ * @date 2019/10/31
  ************************************/
-class BooleanColumn(index: Int, key: String, value: Boolean) : AbstractColumn<Boolean>(index = index, key = key, value = value) {
+class NullColumn(key: String, index: Int, value: String = "") : AbstractColumn<String>(key, index, value) {
 
     override fun type(): FieldType {
-        return FieldType.BOOLEAN
+        return FieldType.NULL
     }
 
     override fun toLong(): Long {
-        return if (this.value()) 1L else 0L
+        throw NoSuchFieldTypeException("不支持此类型")
     }
 
     override fun toInt(): Int {
-        return this.toLong().toInt()
+        throw NoSuchFieldTypeException("不支持此类型")
     }
 
     override fun toBoolean(): Boolean {
-        return this.value()
+        throw NoSuchFieldTypeException("不支持此类型")
     }
 
     override fun toFloat(): Float {
-        return this.toInt().toFloat()
+        throw NoSuchFieldTypeException("不支持此类型")
     }
 
     override fun toDouble(): Double {
-        return this.toLong().toDouble()
+        throw NoSuchFieldTypeException("不支持此类型")
     }
 
     override fun toText(): String {
-        return this.value().toString()
+        return this.value()
     }
 
     override fun toDate(): Date {
@@ -44,7 +44,8 @@ class BooleanColumn(index: Int, key: String, value: Boolean) : AbstractColumn<Bo
     }
 
     override fun toDecimal(): BigDecimal {
-        return this.toLong().toBigDecimal()
+        throw NoSuchFieldTypeException("不支持此类型")
     }
+
 
 }

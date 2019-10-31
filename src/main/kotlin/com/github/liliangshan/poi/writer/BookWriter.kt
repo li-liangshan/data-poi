@@ -1,6 +1,6 @@
 package com.github.liliangshan.poi.writer
 
-import com.github.liliangshan.poi.core.Maker
+import com.github.liliangshan.poi.maker.Maker
 import com.github.liliangshan.poi.model.Book
 import java.io.IOException
 import java.io.OutputStream

@@ -4,6 +4,7 @@ import com.github.liliangshan.poi.column.IntColumn
 import com.github.liliangshan.poi.column.StringColumn
 import com.github.liliangshan.poi.config.BookConfig
 import com.github.liliangshan.poi.core.Record
+import com.github.liliangshan.poi.maker.BookMaker
 import com.github.liliangshan.poi.model.Book
 import com.github.liliangshan.poi.model.BookSheet
 import com.github.liliangshan.poi.writer.WorkBookWriter

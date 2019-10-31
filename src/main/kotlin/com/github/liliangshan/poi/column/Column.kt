@@ -9,7 +9,7 @@ interface Column<T> {
 
     fun type(): FieldType
 
-    fun value(): T?
+    fun value(): T
 
     fun isNull(): Boolean
 
